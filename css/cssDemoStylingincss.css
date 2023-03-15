@@ -1,0 +1,29 @@
+/*we will rgb color for colour changing*/
+/*rgb()--.format*/
+/*rgb(0-255,0-255,0-255)*/
+h3
+{
+    color:rgb(0,100,0);
+}
+/*we can also give hex format to change the colour*/
+#name,h3{
+    color: violet;
+    color: #665276;
+}
+/*Hsl format*/
+#name{
+    color: rgb(102, 204, 151);
+}
+/*giving backround color*/
+/*opacity*/
+h2{
+    color: black;
+    background-color: rgb(255,0,0);
+    background-color: rgba(20, 201, 17, 1);
+}
+/*to make full page as pink*/
+/*body{
+    background-color: rgb(205, 13, 189);
+}*/
+/*this is to change the entire body to nw font*/
+

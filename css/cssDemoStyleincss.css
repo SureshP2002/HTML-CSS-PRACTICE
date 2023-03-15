@@ -1,0 +1,48 @@
+/*Universal Selector*/
+/*WE can also give body*/
+*{
+    color: rgb(6, 37, 130);
+
+}
+/*h1 is the type selector*/
+/*we can also give like this(h1,h2,h3)*/
+/*Type Selector*/
+h2,h2,h3{
+    color: green;
+}
+/*To slect particular tag we use # and we can make changes*/
+/*we can also give multiple id*/
+/*ID Selector*/
+#aboutme,#vil{
+    color: black;
+
+}
+/*instead of creating seperate id we can use common class/*
+/*we use . to accesing class*/
+/*Class Selector*/
+.green{
+    color: orangered;
+}
+/*div's child-->decesdend*/
+/*CHild Selecor*/
+div>p{
+    color:yellowgreen ;
+}
+/*To make particular changes in child*/
+/*Descendant Selector*/
+div a{
+    color: brown;
+}
+/*sibling selector*/
+h1~h4{
+    color: darkmagenta;
+}/*Adjacent Selector*/
+/*if we use !important then that will exists permennantly*/
+h3+h4{
+  
+    color: fuchsia !important;
+}
+/*if we give more than one changes for the tag last changes will be retained*/
+h3+h4{
+    color: blueviolet;
+}

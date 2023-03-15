@@ -1,0 +1,27 @@
+.para1{
+    background-color: blueviolet;
+}
+.para2{
+    background-color: brown;
+    /* text-align: justify; */
+}
+.para3{
+    background-color: chartreuse;
+    /* text-align: justify; */
+}
+/* print,speech,all */
+@media screen and (min-width:800px){
+    .container{
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+.para3{
+    background-color: blueviolet;
+}
+}
+@media print{
+    body{
+        background-color: none;
+    }
+}

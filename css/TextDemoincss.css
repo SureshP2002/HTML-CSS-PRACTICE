@@ -1,0 +1,58 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, monospace;
+    /*1/125 of an inch*/
+    font-size: 15px;
+    
+}
+h2,h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+/*Font squirrel download*/
+/*font size*/
+h2,h3,#p{
+    font-style: inherit;
+    
+    font-size: 10%;
+}
+body,#id{
+    font-weight:4;
+    font-style:inherit;
+    font-stretch: condensed;
+    text-transform:capitalize;
+    text-decoration: none;
+    line-height: 1.5em;
+    word-spacing: .01em;
+    word-wrap:calc(50);
+    font-family:checked
+    'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* vertical-align: auto; */
+   
+}
+p{
+    
+    letter-spacing: .1em;
+    text-align:justify;
+    /* text-shadow: 2px 0px 2px violet; */
+}
+p::first-letter{
+    font-size: 2em;
+}
+a:link{
+    color: rgb(142, 10, 10);
+}
+a:visited{
+    color: blue;
+}
+a:focus{
+       color: green;
+}
+a:hover{
+    color: pink;
+}
+a:active{
+    color:deeppink
+}
+p[id$='b']{
+    color: rgb(138, 13, 38);
+}

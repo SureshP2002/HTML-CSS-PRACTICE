@@ -1,0 +1,30 @@
+.bluebox{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    
+}
+.yellowbox{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    
+    /* position: relative ;
+    left: px;
+    bottom: 300px;  */
+    /* position:absolute;
+    position: fixed;
+    position: sticky; */
+}
+/* h2{
+    position: relative;
+    left: 200px;
+    top: 10px;
+} */
+.col \p{
+    width: 30%;
+    float: left;
+}
+.col p:nth-child(4){
+    clear: left;
+}

@@ -1,0 +1,52 @@
+body{
+    background:url("/MEDIA/bg1.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.registration{
+    width: 300px;
+    margin: 250px auto;
+    padding: 10px 20px 30px;
+    background-color: rgba(0, 0,0, .5);
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.registration h2{
+    text-align: center;
+    color: black
+}
+.registration .textlable{
+    display: block;
+}
+.input input{
+    width: 100%;
+    font-size: 1.5em;
+    border: 1px solid black;
+    box-shadow: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 5px;
+}
+input:focus{
+    background-color: blueviolet;
+}
+.btn{
+    text-align: center;
+}
+button{
+    background-color: blue;
+    font-size: 20px;
+    color: aquamarine;
+    margin-top: 20px;
+    padding: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 10px;
+}
+.radio input{
+    accent-color: green;
+    transform: scale(1.5);
+    prefix: -webkit-gradient();
+
+}

@@ -1,0 +1,41 @@
+.outerbox{
+    background-color: darkgreen;
+    min-height: 400px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-end;
+    /* align-items: flex-end; */
+    align-items: stretch;
+    flex-wrap: 10px;
+}
+.box{
+    width:150px ;
+    height: 250px;
+    background-color: blue;
+    border: 2px solid white;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    padding: 10px;
+}
+.para1{
+    background-color: aquamarine;
+    flex: 1;
+    order: 1;
+}
+
+.par2{
+    background-color: chartreuse;
+    flex: 1;
+    order: 3;
+}
+
+.para3{
+    background-color: darkred;
+    flex: 1;
+    order: 2;
+}
